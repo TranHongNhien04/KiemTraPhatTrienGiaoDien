@@ -1,18 +1,21 @@
 import React from "react";
+import QN03 from "../assets/QN03.jpg";
+import TH03 from "../assets/TH03.jpg";
+import video from "../assets/video-background.jpg"; // Đường dẫn đến ảnh video
 
 const CampusSection = () => {
     const campusItems = [
         {
             title: "PHÂN HIỆU QUẢNG NGÃI",
-            img: "https://via.placeholder.com/300x200", // Ảnh demo
+            img: QN03, // dùng ảnh QN03
         },
         {
             title: "CƠ SỞ THANH HÓA",
-            img: "https://via.placeholder.com/300x200",
+            img: TH03, // dùng ảnh TH03
         },
         {
             title: "VIDEO VÀ HÌNH ẢNH",
-            img: "https://via.placeholder.com/300x200",
+            img: video, // dùng ảnh video
         },
     ];
 
